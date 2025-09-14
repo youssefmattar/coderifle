@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CodeRifle builds secure, scalable web applications with backend precision and full-stack finesse. Trusted by enterprises for resilient architecture and transparent delivery.">
+    <meta name="googlebot" content="all">
+    <meta name="robots" content="all">
+    <link rel="stylesheet" href="./public/styles/index.css">
+    <link rel="stylesheet" href="./public/styles/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./public/assets/images/logoBlack.png" type="image/x-icon">
+    <title>codeRifle</title>
+
+</head>
+<body>
+    <div class="hidden" id="phone-nav-menu">
+            <a class="phone-nav-link" href="./index.html">Home</a>
+            <a class="phone-nav-link" href="./services.html">services</a>
+            <a class="phone-nav-link" href="./about.html">about</a>
+            <a class="phone-nav-link" id="last-phone-nav-element" href="./contact.html">contact us</a>
+    </div>
+    <div class="navbar">
+        <div class="half-nav left-nav">
+            <div class="nav-left">
+                <img id="navbar-logo" src="./public/assets/images/logoBlack.png" alt="code rifle logo">
+                <p id = "nav-title">coderifle.com</p>
+            </div>
+        </div>
+        <div class="half-nav right-nav" id="nav-menu">
+            <a class="nav-link" href="./index.html">Home</a>
+            <a class="nav-link" href="./services.html">services</a>
+            <a class="nav-link" href="./about.html">about</a>
+            <a class="nav-link" href="./contact.html">contact us</a>
+            <a></a>
+        </div>
+        <svg id="menu-button" class="hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+    </div>
+    
+    <main>
+
+        <section id="about">
+            <div class="about-container">
+                <h1>About CodeRifle</h1>
+
+                <div class="about-block">
+                <h2>Our Mission</h2>
+                <p>CodeRifle builds secure, scalable web systems with backend precision and full-stack finesse—engineered for businesses that demand control, clarity, and resilience.</p>
+                </div>
+
+                <div class="about-block">
+                <h2>What We Do</h2>
+                <p>We specialize in backend-first architecture using Node.js, Express, and PostgreSQL. Our services include full-stack delivery, custom platforms for e-commerce, portfolios, medical labs, and business systems—each built with modular logic, airtight validation, and transparent delivery.</p>
+                </div>
+
+                <div class="about-block">
+                <h2>Why We Exist</h2>
+                <p>CodeRifle was founded to challenge the template-driven web industry. We don’t just build websites—we engineer platforms that solve real business problems. Every system is designed from the backend out, with security, scalability, and long-term control in mind.</p>
+                </div>
+
+                <div class="about-block">
+                <h2>What We Stand For</h2>
+                <ul>
+                    <li>🔐 Security-first builds</li>
+                    <li>⚙️ Modular, scalable systems</li>
+                    <li>📈 Transparent pricing and delivery</li>
+                    <li>🧠 Strategic thinking, not just coding</li>
+                </ul>
+                </div>
+
+                <!--<div class="about-block cta">
+                <p>Whether you need a secure backend, a full-stack platform, or a custom system built from scratch—CodeRifle is ready to engineer it with precision.</p>
+                <a href="contact.html" class="cta-button">Let’s Build Something Secure</a>
+                </div>-->
+            </div>
+        </section>
+    </main>
+
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <h2>Ready to Build with Precision?</h2>
+            <p>Let’s architect your next platform—secure, scalable, and built to trust .</p>
+            <div class="cta-buttons">
+            <a href="#contact" class="cta-btn primary">Start Your Build</a>
+            <!--<a href="#stack" class="cta-btn secondary">See Our Stack</a>-->
+            </div>
+        </div>
+    </section>
+
+    <footer id="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+            <h3>CodeRifle</h3>
+            <p>Secure, scalable web systems. Built for business.</p>
+            </div>
+
+            <div class="footer-links">
+            <a href="./index.html">Home</a>
+            <a href="./services.html">Services</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+            <!--<p>Email: <a href="mailto:contact@coderifle.com">contact@coderifle.com</a></p>-->
+            <p>Phone: +201032787835</p>
+            <p>Location: Egypt — Remote Worldwide</p>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> CodeRifle. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./public/scripts/index.js"></script>
+</body>
+</html>
