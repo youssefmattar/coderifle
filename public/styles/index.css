@@ -393,7 +393,16 @@ html, body{
           "wdth" 100;
   }
   .hero{
-      background-image: url("../assets/images/phoneherobackground.webp");
+      /*background-image: url("../assets/images/phoneherobackground.webp");/**/
+      /*background-image: url("../assets/images/phoneherobackground.webp");/**/
+      background: linear-gradient(
+        to bottom,
+        #0a1a2f 0%,     /* dark blue top */
+        #081521 40%,    /* deeper navy */
+        #060f18 70%,    /* almost black */
+        #040a12 100%    /* near-black bottom */
+      );
+
       background-size: cover;
       min-height: 100vh;
       padding-top: 60px; /* match navbar height */
@@ -707,7 +716,17 @@ html, body{
           "wdth" 100;
   }
   .hero{
-      background-image: url("../assets/images/phoneherobackground.webp");
+      /*background-image: url("../assets/images/phoneherobackground.webp");/**/
+      background: linear-gradient(
+        to bottom,
+        #0a1a2f 0%,     /* dark blue top */
+        #081521 40%,    /* deeper navy */
+        #060f18 70%,    /* almost black */
+        #040a12 100%    /* near-black bottom */
+      );
+
+
+
       background-size: cover;
       min-height: 100vh;
       padding-top: 60px; /* match navbar height */
