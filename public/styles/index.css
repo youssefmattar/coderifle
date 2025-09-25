@@ -54,6 +54,15 @@ html, body{
   color: white;
 }
 
+.phone-nav-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 80px;
+}
+
 .nav-link{
   height: 100%;
   display: flex;
@@ -334,22 +343,31 @@ html, body{
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    gap: 20px;
     top: 60px;
     right: 0px;
     background-color: rgb(75, 74, 74);
     border-radius: 15px;
     min-height: 300px;
     max-height: 50vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
 
   }
+
+  #phone-nav-menu:not(.hidden) {
+    opacity: 1;
+  }
+
 
   .phone-nav-link{
     text-align: center;
     color:white;
     width:200px;
-    padding-bottom: 20px;
+    
     border-bottom: 1px solid rgba(255, 255, 255, 0.124);
   }
+ 
   #last-phone-nav-element{
     border: 0;
   }
@@ -647,9 +665,14 @@ html, body{
     border-radius: 15px;
     min-height: 300px;
     max-height: 50vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
 
   }
 
+  #phone-nav-menu:not(.hidden) {
+    opacity: 1;
+  }
   .phone-nav-link{
     text-align: center;
     color:white;
@@ -657,6 +680,7 @@ html, body{
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.124);
   }
+  
   #last-phone-nav-element{
     border: 0;
   }
