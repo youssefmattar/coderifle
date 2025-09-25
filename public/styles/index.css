@@ -54,6 +54,16 @@ html, body{
   color: white;
 }
 
+.nav-link{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -305,7 +315,9 @@ html, body{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      align-items: center;
       font-size: 0.7rem;
+      height: 100%;
   }
 
   .left-nav{
@@ -352,7 +364,7 @@ html, body{
   }
 
   #nav-title{
-      font-size: 0.7rem;
+      font-size: 0.9rem;
       font-family: "Roboto", sans-serif;
       font-optical-sizing: auto;
       font-weight: bold;
@@ -610,7 +622,9 @@ html, body{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      align-items: center;
       font-size: 0.7rem;
+      height: 100%;
   }
 
   .left-nav{
@@ -654,10 +668,11 @@ html, body{
       justify-content: center;
       align-items: center;
       gap:10px;
+      font-size: 0.7rem;
   }
 
   #nav-title{
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       font-family: "Roboto", sans-serif;
       font-optical-sizing: auto;
       font-weight: bold;
@@ -779,7 +794,12 @@ html, body{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      align-items: center;
       font-size: 0.7rem;
+      height: 100%;
+  }
+  .nav-left{
+    font-size: 0.7rem;
   }
 
   .left-nav{
@@ -908,12 +928,16 @@ html, body{
     width: auto;
     
 }
-
+.gap{
+  width: 30px;
+}
 .half-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 50%;
+    height: 100%;
 }
 
 .nav-left{
